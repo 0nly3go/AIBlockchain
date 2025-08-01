@@ -1,0 +1,51 @@
+# .gitignore for AIBlockchain Project
+
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv
+venv/
+ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (add your actual data file names if needed)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.db
+*.sqlite3
+
+# Ignore model files
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore node_modules (for Hardhat/Node.js)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore PDF and other large docs (optional)
+*.pdf
+
+# Add any other files or folders you want to exclude below
+# !keep_this_file.csv  # Example: remove the ! to force-include a file

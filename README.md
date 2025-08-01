@@ -88,6 +88,22 @@ Place your dataset (`transactions.csv`) in the same directory as the script. Ens
 - Visualize the decision tree structure and feature importances.
 - Authenticate a transaction on the Ethereum network based on the decision tree's criteria.
 
+
+## Converting JSON-lines Text Files to CSV
+If your data is in a text file where each line is a JSON object (common for some datasets), you can use the provided `txt_to_csv.py` utility to convert it to a standard CSV file for analysis.
+
+### How to Use `txt_to_csv.py`
+1. Place your JSON-lines text file (e.g., `transactions.txt`) in the project directory.
+2. Open `txt_to_csv.py` and update the `input_txt` and `output_csv` variables if needed.
+3. Run the script in your terminal:
+   ```sh
+   python txt_to_csv.py
+   ```
+4. The script will create a CSV file (e.g., `transactions.csv`) with all the fields from your JSON objects as columns.
+
+This is useful if you receive data in a raw text format and need it in CSV for use with pandas or other tools in this project.
+
+---
 ## How to Enable Hardhat for ETH Transactions
 Run the following commands in your terminal:
 ```sh
